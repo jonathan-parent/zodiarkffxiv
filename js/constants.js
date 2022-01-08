@@ -41,36 +41,36 @@ const PATTERNS = [
     [
         // Paradeigma 5
         { type: 'rotation' },
-        { type: 'bird', count: 2 },
-        { type: 'firewall' }
+        { type: 'firewall' },
+        { type: 'bird', count: 2 }
     ],
     [
         // Paradeigma 6
         { type: 'rotation' },
+        { type: 'firewall' },
         { type: 'bird', count: 4 },
-        { type: 'snake' },
-        { type: 'firewall' }
+        { type: 'snake' }
     ],
     [
         // Paradeigma 7
         { type: 'rotation' },
-        { type: 'snake' },
         { type: 'firewall' },
+        { type: 'snake' },
         { type: 'sigil' }
     ],
     [
         // Paradeigma 8
         { type: 'rotation' },
-        { type: 'bird', count: 2, arrangement: 'across' },
         { type: 'firewall' },
+        { type: 'bird', count: 2, arrangement: 'across' },
         { type: 'sigil', side: 2, shape: 'square' }
     ],
     [
         // Paradeigma 9
         { type: 'rotation' },
+        { type: 'firewall' },
         { type: 'bird', count: 4 },
         { type: 'snake' },
-        { type: 'firewall' },
         { type: 'sigil' }
     ],
 ];
