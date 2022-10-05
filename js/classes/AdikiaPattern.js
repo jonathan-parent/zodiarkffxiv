@@ -36,7 +36,7 @@ class AdikiaPattern extends Pattern
 
         this.scene.tweens.add({
             targets: this.images.getChildren(),
-            duration: constants.ANIMATION_DURATIONS.aigedon / 2,
+            duration: constants.ANIMATION_DURATIONS.adikia / 2,
             colorCounter: 100,
             ease: 'Linear',
             delay: this.animationDelay,
